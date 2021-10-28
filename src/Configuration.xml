@@ -77,7 +77,11 @@
 			<Document>ОтчетОРозничныхПродажах</Document>
 			<Document>РеализацияТоваров</Document>
 			<Document>ЧекККМ</Document>
-			<InformationRegister>пд_БонусныеНачисленияКВыгрузке</InformationRegister>
+			<Document>ВводОстатковПоНакопительнымСкидкам</Document>
+			<Enum>пд_ВидыВыгрузки</Enum>
+			<Enum>пд_РезультатВыгрузки</Enum>
+			<InformationRegister>пд_БонусныеНачисленияИПродажиКВыгрузке</InformationRegister>
+			<AccumulationRegister>ПродажиПоДисконтнымКартам</AccumulationRegister>
 			<AccumulationRegister>БонусныеБаллы</AccumulationRegister>
 		</ChildObjects>
 	</Configuration>

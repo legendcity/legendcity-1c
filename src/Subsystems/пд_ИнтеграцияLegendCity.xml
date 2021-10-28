@@ -15,10 +15,11 @@
 			<Explanation/>
 			<Picture/>
 			<Content>
-				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.пд_БонусныеНачисленияКВыгрузке</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.пд_БонусныеНачисленияИПродажиКВыгрузке</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.пд_ОбменСLegendCity</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonCommand.пд_НастройкаИнтеграции</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonForm.пд_НастройкаИнтеграцииСLegendCity</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Enum.пд_РезультатВыгрузки</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

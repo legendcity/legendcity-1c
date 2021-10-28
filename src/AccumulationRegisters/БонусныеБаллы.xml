@@ -34,6 +34,36 @@
 			<ExtendedConfigurationObject>018b17af-bd78-492b-9ee0-520b76ba7628</ExtendedConfigurationObject>
 			<RegisterType>Balance</RegisterType>
 		</Properties>
-		<ChildObjects/>
+		<ChildObjects>
+			<Resource uuid="f384e0bd-6d37-4aa2-a648-1114a586ba17">
+				<InternalInfo/>
+				<Properties>
+					<Name>Начислено</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>2f9ded9e-b028-4fb6-9c8a-a858ad541e2d</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>15</v8:Digits>
+							<v8:FractionDigits>2</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Resource>
+			<Dimension uuid="f23ae344-7856-4887-91c5-ec21a07f11c1">
+				<InternalInfo/>
+				<Properties>
+					<Name>ДисконтнаяКарта</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>4b4bd994-2b8a-42ea-b50c-ae422040fbb4</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ИнформационныеКарты</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+		</ChildObjects>
 	</AccumulationRegister>
 </MetaDataObject>

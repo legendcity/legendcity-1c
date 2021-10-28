@@ -4,7 +4,7 @@
 	<setForAttributesByDefault>false</setForAttributesByDefault>
 	<independentRightsOfChildObjects>false</independentRightsOfChildObjects>
 	<object>
-		<name>InformationRegister.пд_БонусныеНачисленияКВыгрузке</name>
+		<name>InformationRegister.пд_БонусныеНачисленияИПродажиКВыгрузке</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
