@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.12">
+	<AccumulationRegister uuid="7b286177-6662-4cc4-bf67-11b3dc3ae819">
+		<InternalInfo>
+			<xr:GeneratedType name="AccumulationRegisterRecord.БонусныеБаллы" category="Record">
+				<xr:TypeId>548b51ac-aefe-4659-9724-9065f6a45fc4</xr:TypeId>
+				<xr:ValueId>d7ff19c6-5461-4c1c-81e1-2111548d29f9</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterManager.БонусныеБаллы" category="Manager">
+				<xr:TypeId>9ec4aa1a-ae9f-40a7-a4d3-f8a1681262aa</xr:TypeId>
+				<xr:ValueId>dee28958-3ab9-41f5-8bdb-37cbe84b0ed6</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterSelection.БонусныеБаллы" category="Selection">
+				<xr:TypeId>ddbe978f-f289-4b36-b438-ca70e0309234</xr:TypeId>
+				<xr:ValueId>92e32bd0-28a4-4070-99a8-1ecc26b5bba7</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterList.БонусныеБаллы" category="List">
+				<xr:TypeId>331c137d-92b6-4027-96c9-09b1759e37c3</xr:TypeId>
+				<xr:ValueId>4a9340d3-05b4-4077-a6a3-7358326468e4</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterRecordSet.БонусныеБаллы" category="RecordSet">
+				<xr:TypeId>a950ba47-6d77-4c95-ae1a-1a124d319ac0</xr:TypeId>
+				<xr:ValueId>7870755e-334a-41ff-a131-0f6c8e16c0bb</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterRecordKey.БонусныеБаллы" category="RecordKey">
+				<xr:TypeId>ce88fa41-4d35-429e-85c9-251938a1843c</xr:TypeId>
+				<xr:ValueId>769cdc1e-9dfb-4765-8107-de05e74e56fb</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>БонусныеБаллы</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<ExtendedConfigurationObject>018b17af-bd78-492b-9ee0-520b76ba7628</ExtendedConfigurationObject>
+			<RegisterType>Balance</RegisterType>
+		</Properties>
+		<ChildObjects>
+			<Resource uuid="f384e0bd-6d37-4aa2-a648-1114a586ba17">
+				<InternalInfo/>
+				<Properties>
+					<Name>Начислено</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>2f9ded9e-b028-4fb6-9c8a-a858ad541e2d</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>15</v8:Digits>
+							<v8:FractionDigits>2</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Resource>
+			<Dimension uuid="f23ae344-7856-4887-91c5-ec21a07f11c1">
+				<InternalInfo/>
+				<Properties>
+					<Name>ДисконтнаяКарта</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>4b4bd994-2b8a-42ea-b50c-ae422040fbb4</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ИнформационныеКарты</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+		</ChildObjects>
+	</AccumulationRegister>
+</MetaDataObject>
