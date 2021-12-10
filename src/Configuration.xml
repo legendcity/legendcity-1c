@@ -71,6 +71,7 @@
 			<CommonCommand>пд_НастройкаИнтеграции</CommonCommand>
 			<CommonForm>пд_НастройкаИнтеграцииСLegendCity</CommonForm>
 			<Catalog>ИнформационныеКарты</Catalog>
+			<Catalog>Магазины</Catalog>
 			<Document>ВозвратТоваровОтПокупателя</Document>
 			<Document>КорректировкаРегистров</Document>
 			<Document>НачислениеИСписаниеБонусныхБаллов</Document>
