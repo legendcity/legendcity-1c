@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.12">
+	<Document uuid="02af3b9c-bea5-462d-8436-2231ecf13d2f">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ОтчетОРозничныхПродажах" category="Object">
+				<xr:TypeId>2cbd95db-11be-4bf7-9c13-d1c375b6ee25</xr:TypeId>
+				<xr:ValueId>0f129429-5b88-4fa9-9a53-891c0fe36931</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ОтчетОРозничныхПродажах" category="Ref">
+				<xr:TypeId>c3eaf8f0-703f-4e35-b20e-64a0b3dfcd82</xr:TypeId>
+				<xr:ValueId>d4552886-1999-4518-8e2a-36710a423328</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ОтчетОРозничныхПродажах" category="Selection">
+				<xr:TypeId>628b6ebc-13a5-431f-ad88-67fa2a275be9</xr:TypeId>
+				<xr:ValueId>b369a8c2-eb60-46d7-95ab-1073209c8f9b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ОтчетОРозничныхПродажах" category="List">
+				<xr:TypeId>160f1bdb-d51a-4b52-80ce-efbe16b454f2</xr:TypeId>
+				<xr:ValueId>884d7c60-36fd-4616-b966-9654c65ecddf</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ОтчетОРозничныхПродажах" category="Manager">
+				<xr:TypeId>333623a1-dd4a-4f6f-bdce-fbb1d4b95407</xr:TypeId>
+				<xr:ValueId>b1682708-964c-489d-b75f-0932a78971a3</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ОтчетОРозничныхПродажах</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<ExtendedConfigurationObject>04bef590-ee45-4171-aa9c-1d2bd421cc7c</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects/>
+	</Document>
+</MetaDataObject>
