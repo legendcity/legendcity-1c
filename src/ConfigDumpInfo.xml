@@ -5,19 +5,20 @@
 			<Metadata name="AccumulationRegister.БонусныеБаллы.Dimension.ДисконтнаяКарта" id="f23ae344-7856-4887-91c5-ec21a07f11c1"/>
 			<Metadata name="AccumulationRegister.БонусныеБаллы.Resource.Начислено" id="f384e0bd-6d37-4aa2-a648-1114a586ba17"/>
 		</Metadata>
-		<Metadata name="AccumulationRegister.БонусныеБаллы.RecordSetModule" id="7b286177-6662-4cc4-bf67-11b3dc3ae819.1" configVersion="6df8f63f07a3ae8a70aa70cd45100a915c8a3aa5"/>
+		<Metadata name="AccumulationRegister.БонусныеБаллы.RecordSetModule" id="7b286177-6662-4cc4-bf67-11b3dc3ae819.1" configVersion="cf69b76eb4366fd8b11c79a84f9ed71d87371bcf"/>
 		<Metadata name="AccumulationRegister.ПродажиПоДисконтнымКартам" id="e80c0e94-3601-4c64-8129-906adc928c9b" configVersion="62d2e42953da89738d86818aacbc27378576a36d"/>
-		<Metadata name="AccumulationRegister.ПродажиПоДисконтнымКартам.RecordSetModule" id="e80c0e94-3601-4c64-8129-906adc928c9b.1" configVersion="7df78da11d956be923f80af698e5d296f5f54eab"/>
+		<Metadata name="AccumulationRegister.ПродажиПоДисконтнымКартам.RecordSetModule" id="e80c0e94-3601-4c64-8129-906adc928c9b.1" configVersion="d33f13ed7aca26a371ea55c1db70b62cb858df92"/>
 		<Metadata name="Catalog.ИнформационныеКарты" id="81b10162-ed99-4516-b07e-db563b5c8867" configVersion="15c9b12b50958c6685f06dc7a270c50b12a3064c"/>
+		<Metadata name="Catalog.Магазины" id="e26190cf-4c5b-4d7e-bc6c-f4bd66aff5a4" configVersion="e24c8b2266012048eb14668adcf1504b6fe9468e"/>
 		<Metadata name="CommonCommand.пд_НастройкаИнтеграции" id="140d7a41-95d6-4735-8f76-c46977af6713" configVersion="1164164a0de0bf2f0c17962b39fd538ebc3b0d0a"/>
-		<Metadata name="CommonCommand.пд_НастройкаИнтеграции.CommandModule" id="140d7a41-95d6-4735-8f76-c46977af6713.2" configVersion="838406ba9ac0d8e08507311319eb00ed659eb083"/>
+		<Metadata name="CommonCommand.пд_НастройкаИнтеграции.CommandModule" id="140d7a41-95d6-4735-8f76-c46977af6713.2" configVersion="4e4afd3dbb739f0463d15947d16008d85d076754"/>
 		<Metadata name="CommonForm.пд_НастройкаИнтеграцииСLegendCity" id="ed49a8b3-85d9-4a24-85c6-5e468774fc91" configVersion="b74f490ae3663c79142e0100918715d06d6e67f3"/>
-		<Metadata name="CommonForm.пд_НастройкаИнтеграцииСLegendCity.Form" id="ed49a8b3-85d9-4a24-85c6-5e468774fc91.0" configVersion="76be7d40c0667ae168427850e73892dde8c8b6fd"/>
+		<Metadata name="CommonForm.пд_НастройкаИнтеграцииСLegendCity.Form" id="ed49a8b3-85d9-4a24-85c6-5e468774fc91.0" configVersion="01ef40d26d4b1a90c889ffbf96e30e96115d4c78"/>
 		<Metadata name="CommonModule.ДополнительныеОтчетыИОбработки" id="19c2600b-f4d1-46e8-a6b3-2ec6fa7f3fd2" configVersion="27f27724a1651dd36b9f42a06684cbc91ac60a02"/>
-		<Metadata name="CommonModule.ДополнительныеОтчетыИОбработки.Module" id="19c2600b-f4d1-46e8-a6b3-2ec6fa7f3fd2.0" configVersion="1bb4ef4e3443eddf77c26829a749d02d6763c064"/>
+		<Metadata name="CommonModule.ДополнительныеОтчетыИОбработки.Module" id="19c2600b-f4d1-46e8-a6b3-2ec6fa7f3fd2.0" configVersion="7063b7c28a659175d56e5170c4a4b1f9a9405edc"/>
 		<Metadata name="CommonModule.пд_ОбменСLegendCity" id="691a3d8f-63b4-43d3-82f5-c22119ab2d53" configVersion="cfe6adfd95b10bdb66c38227d6e3a197fc3ade21"/>
-		<Metadata name="CommonModule.пд_ОбменСLegendCity.Module" id="691a3d8f-63b4-43d3-82f5-c22119ab2d53.0" configVersion="f5c84a7c2e441d5859c6ab1f55763bd82814852d"/>
-		<Metadata name="Configuration.ИнтеграцияСLegendCity" id="3076f171-9e16-45a8-84ab-9e4fba04071a" configVersion="4ead1ee292e505246d1ebc7079609bdc5d6ba63a"/>
+		<Metadata name="CommonModule.пд_ОбменСLegendCity.Module" id="691a3d8f-63b4-43d3-82f5-c22119ab2d53.0" configVersion="56066c916261f4208917e254a2711ea87842cf2e"/>
+		<Metadata name="Configuration.ИнтеграцияСLegendCity" id="3076f171-9e16-45a8-84ab-9e4fba04071a" configVersion="7dcb243e46a60ea8504c53ed0b3a618963b8418a"/>
 		<Metadata name="Document.ВводОстатковПоНакопительнымСкидкам" id="0f092bb1-ec93-4e90-90b7-b29803e85626" configVersion="fd6a0b3e528fd55d32acc1e524c424afa967984f"/>
 		<Metadata name="Document.ВозвратТоваровОтПокупателя" id="38f765eb-b7e1-4d32-816c-63e2ae74200a" configVersion="8d59ca61bce2424fe09abd4c44894dd479d5bda2"/>
 		<Metadata name="Document.КорректировкаРегистров" id="87171e20-7482-4a31-91e4-5168f45bde5b" configVersion="3fc6003c55d6f394a75666a69de9ba1768bcff99"/>
