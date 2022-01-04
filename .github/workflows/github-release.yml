@@ -1,0 +1,36 @@
+name: Github release
+
+on:
+  workflow_dispatch:
+    inputs:
+      name:
+        description: "Output artifact and cfe file name"
+        default: "legendcity"
+        required: true
+        type: string
+
+  workflow_call:
+    inputs:
+      name:
+        description: "Output artifact and cfe file name"
+        default: "legendcity"
+        required: true
+        type: string
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Download build-output artifacts
+        uses: actions/download-artifact@main
+        with:
+          name: ${{ inputs.name }}
+          path: build/
+
+      - name: Release
+        uses: anton-yurchenko/git-release@main
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          UNRELEASED: "update"
+        with:
+          args: build/*.cfe

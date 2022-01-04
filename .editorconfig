@@ -1,0 +1,7 @@
+root = true
+
+[src/**.{xml,bsl}]
+charset = utf-8-bom
+end_of_line = crlf
+indent_style = tab
+tab_width = 4
