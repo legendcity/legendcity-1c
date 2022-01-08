@@ -4,24 +4,17 @@ on:
   push:
     branches:
       - main
-      - ci-releases
-
-  workflow_dispatch:
-    inputs:
-      name:
-        description: "Output artifact and cfe file name"
-        default: "legendcity"
-        required: true
-        type: string
+    tags:
+      - "v[0-9]+.[0-9]+.[0-9]+"
 
 jobs:
   build:
-    uses: legendcity/legendcity-1c/.github/workflows/build-cfe.yml@ci-releases
+    uses: legendcity/legendcity-1c/.github/workflows/build-cfe.yml@main
     with:
       name: legendcity
 
   release:
     needs: build
-    uses: legendcity/legendcity-1c/.github/workflows/github-release.yml@ci-releases
+    uses: legendcity/legendcity-1c/.github/workflows/github-release.yml@main
     with:
       name: legendcity

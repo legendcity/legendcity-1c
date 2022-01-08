@@ -8,6 +8,11 @@ on:
         default: "legendcity"
         required: true
         type: string
+      version:
+        description: "Version"
+        default: "dev"
+        required: false
+        type: string
 
   workflow_call:
     inputs:
@@ -24,6 +29,17 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v2
+
+      - name: Add version env property with commit short sha
+        run: echo ("version=" + (git rev-parse --short=7 HEAD)) >> $env:GITHUB_ENV
+
+      - name: Set version env by tag if exist
+        if: ${{ startsWith(github.ref, 'refs/tags/v') }}
+        run: echo ("version=" + $env:GITHUB_REF.replace('refs/tags/v', '')) >> $env:GITHUB_ENV
+
+      - name: Set version env by input if exist
+        if: ${{ inputs.version }}
+        run: echo ("version=" + ${{ inputs.version }}) >> $env:GITHUB_ENV
 
       - name: Run bat script
         shell: cmd
@@ -54,11 +70,13 @@ jobs:
           %bin1config% /LoadConfigFromFiles %tmp_src% -AllExtensions /Out %tmp%\log-import.txt
 
           echo Export cfe
-          %bin1config% /DumpCfg build\${{ inputs.name }}.cfe -Extension %extension% /Out %tmp%\log-export.txt
+          %bin1config% /DumpCfg build\${{ inputs.name }}-%version%.cfe -Extension %extension% /Out %tmp%\log-export.txt
 
-      - name: Archive cfe
+          echo build\${{ inputs.name }}-%version%.cfe
+
+      - name: Archive *.cfe
         uses: actions/upload-artifact@v2
         with:
           name: ${{ inputs.name }}
-          path: build/${{ inputs.name }}.cfe
+          path: build/*.cfe
           if-no-files-found: error
