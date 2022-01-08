@@ -18,7 +18,7 @@ on:
         type: string
 
 jobs:
-  build:
+  github-release:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -34,6 +34,6 @@ jobs:
         uses: anton-yurchenko/git-release@main
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          UNRELEASED: "update"
+          # UNRELEASED: "update"
         with:
           args: build/*.cfe

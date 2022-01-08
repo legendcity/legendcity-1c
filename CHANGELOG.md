@@ -1,5 +1,12 @@
 # Changelog
 
+All notable changes to this project will be documented in this file.
+
+## [Unreleased]
+
+### Added
+- Coming soon ...
+
 ## [1.0.0] - 2022-01-08
 
 ### Added
