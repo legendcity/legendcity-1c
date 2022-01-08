@@ -1,0 +1,82 @@
+name: Build *.cfe
+
+on:
+  workflow_dispatch:
+    inputs:
+      name:
+        description: "Output artifact and cfe file name"
+        default: "legendcity"
+        required: true
+        type: string
+      version:
+        description: "Version"
+        default: "dev"
+        required: false
+        type: string
+
+  workflow_call:
+    inputs:
+      name:
+        description: "Output artifact and cfe file name"
+        default: "legendcity"
+        required: true
+        type: string
+
+jobs:
+  build-cfe:
+    runs-on: [self-hosted, windows, x64, 1c]
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Add version env property with commit short sha
+        run: echo ("version=" + (git rev-parse --short=7 HEAD)) >> $env:GITHUB_ENV
+
+      - name: Set version env by tag if exist
+        if: ${{ startsWith(github.ref, 'refs/tags/v') }}
+        run: echo ("version=" + $env:GITHUB_REF.replace('refs/tags/v', '')) >> $env:GITHUB_ENV
+
+      - name: Set version env by input if exist
+        if: ${{ inputs.version }}
+        run: echo ("version=" + ${{ inputs.version }}) >> $env:GITHUB_ENV
+
+      - name: Run bat script
+        shell: cmd
+        run: |
+          echo Prepare variables and temp folders
+          set extension=ИнтеграцияСLegendCity
+          set bin1c="C:\Program Files\1cv8\8.3.13.1690\bin\1cv8.exe"
+          set template1c=C:\Users\User\AppData\Roaming\1C\1c8\tmplts\1c\Retail\2_2_12_30\1Cv8.dt
+          set user1c=БорисовФМ (Администратор)
+          set current_dir=%cd%
+          set tmp=%current_dir%\tmp
+          if not exist %tmp% mkdir %tmp%
+          @RD /S /Q %tmp%
+          set tmp_base=%tmp%\base
+          mkdir %tmp_base%
+          mkdir build
+          set tmp_src=%tmp%\extensions
+          mkdir %tmp_src%
+          mkdir %tmp_src%\%extension%
+          xcopy src %tmp_src%\%extension% /E /q
+          set bin1config=%bin1c% CONFIG /F "%tmp_base%" /N "%user1c%"
+          echo %bin1config%
+
+          echo Create 1c info base from template
+          %bin1c% CREATEINFOBASE "File=%tmp_base%;DBFormat=8.3.8" /UseTemplate "%template1c%" /Out "%tmp%\log-base.txt"
+
+          echo Import module source files
+          %bin1config% /LoadConfigFromFiles %tmp_src% -AllExtensions /Out %tmp%\log-import.txt
+
+          echo Export cfe
+          %bin1config% /DumpCfg build\${{ inputs.name }}-%version%.cfe -Extension %extension% /Out %tmp%\log-export.txt
+
+          echo build\${{ inputs.name }}-%version%.cfe
+
+      - name: Archive *.cfe
+        uses: actions/upload-artifact@v2
+        with:
+          name: ${{ inputs.name }}
+          path: build/*.cfe
+          if-no-files-found: error

@@ -1,0 +1,39 @@
+name: Github Release
+
+on:
+  workflow_dispatch:
+    inputs:
+      name:
+        description: "Output artifact and cfe file name"
+        default: "legendcity"
+        required: true
+        type: string
+
+  workflow_call:
+    inputs:
+      name:
+        description: "Output artifact and cfe file name"
+        default: "legendcity"
+        required: true
+        type: string
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Download *.cfe
+        uses: actions/download-artifact@main
+        with:
+          name: ${{ inputs.name }}
+          path: build/
+
+      - name: GitHub Release creation
+        uses: docker://antonyurchenko/git-release:latest
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          UNRELEASED: "update"
+        with:
+          args: build/*.cfe
