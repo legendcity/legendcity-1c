@@ -1,41 +1,41 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.12">
+<ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.11">
 	<ConfigVersions>
-		<Metadata name="AccumulationRegister.БонусныеБаллы" id="7b286177-6662-4cc4-bf67-11b3dc3ae819" configVersion="72513c855e8108bf25cdf3ff1833054580e23717">
+		<Metadata name="AccumulationRegister.БонусныеБаллы" id="7b286177-6662-4cc4-bf67-11b3dc3ae819" configVersion="89636596057407279281d510c06dd1b0777cdc59">
 			<Metadata name="AccumulationRegister.БонусныеБаллы.Dimension.ДисконтнаяКарта" id="f23ae344-7856-4887-91c5-ec21a07f11c1"/>
 			<Metadata name="AccumulationRegister.БонусныеБаллы.Resource.Начислено" id="f384e0bd-6d37-4aa2-a648-1114a586ba17"/>
 		</Metadata>
-		<Metadata name="AccumulationRegister.БонусныеБаллы.RecordSetModule" id="7b286177-6662-4cc4-bf67-11b3dc3ae819.1" configVersion="cf69b76eb4366fd8b11c79a84f9ed71d87371bcf"/>
-		<Metadata name="AccumulationRegister.ПродажиПоДисконтнымКартам" id="e80c0e94-3601-4c64-8129-906adc928c9b" configVersion="62d2e42953da89738d86818aacbc27378576a36d"/>
-		<Metadata name="AccumulationRegister.ПродажиПоДисконтнымКартам.RecordSetModule" id="e80c0e94-3601-4c64-8129-906adc928c9b.1" configVersion="d33f13ed7aca26a371ea55c1db70b62cb858df92"/>
-		<Metadata name="Catalog.ИнформационныеКарты" id="81b10162-ed99-4516-b07e-db563b5c8867" configVersion="15c9b12b50958c6685f06dc7a270c50b12a3064c"/>
-		<Metadata name="Catalog.Магазины" id="e26190cf-4c5b-4d7e-bc6c-f4bd66aff5a4" configVersion="e24c8b2266012048eb14668adcf1504b6fe9468e"/>
-		<Metadata name="CommonCommand.пд_НастройкаИнтеграции" id="140d7a41-95d6-4735-8f76-c46977af6713" configVersion="1164164a0de0bf2f0c17962b39fd538ebc3b0d0a"/>
-		<Metadata name="CommonCommand.пд_НастройкаИнтеграции.CommandModule" id="140d7a41-95d6-4735-8f76-c46977af6713.2" configVersion="4e4afd3dbb739f0463d15947d16008d85d076754"/>
-		<Metadata name="CommonForm.пд_НастройкаИнтеграцииСLegendCity" id="ed49a8b3-85d9-4a24-85c6-5e468774fc91" configVersion="b74f490ae3663c79142e0100918715d06d6e67f3"/>
-		<Metadata name="CommonForm.пд_НастройкаИнтеграцииСLegendCity.Form" id="ed49a8b3-85d9-4a24-85c6-5e468774fc91.0" configVersion="01ef40d26d4b1a90c889ffbf96e30e96115d4c78"/>
-		<Metadata name="CommonModule.ДополнительныеОтчетыИОбработки" id="19c2600b-f4d1-46e8-a6b3-2ec6fa7f3fd2" configVersion="27f27724a1651dd36b9f42a06684cbc91ac60a02"/>
-		<Metadata name="CommonModule.ДополнительныеОтчетыИОбработки.Module" id="19c2600b-f4d1-46e8-a6b3-2ec6fa7f3fd2.0" configVersion="7063b7c28a659175d56e5170c4a4b1f9a9405edc"/>
-		<Metadata name="CommonModule.пд_ОбменСLegendCity" id="691a3d8f-63b4-43d3-82f5-c22119ab2d53" configVersion="cfe6adfd95b10bdb66c38227d6e3a197fc3ade21"/>
-		<Metadata name="CommonModule.пд_ОбменСLegendCity.Module" id="691a3d8f-63b4-43d3-82f5-c22119ab2d53.0" configVersion="56066c916261f4208917e254a2711ea87842cf2e"/>
-		<Metadata name="Configuration.ИнтеграцияСLegendCity" id="3076f171-9e16-45a8-84ab-9e4fba04071a" configVersion="7dcb243e46a60ea8504c53ed0b3a618963b8418a"/>
-		<Metadata name="Document.ВводОстатковПоНакопительнымСкидкам" id="0f092bb1-ec93-4e90-90b7-b29803e85626" configVersion="fd6a0b3e528fd55d32acc1e524c424afa967984f"/>
-		<Metadata name="Document.ВозвратТоваровОтПокупателя" id="38f765eb-b7e1-4d32-816c-63e2ae74200a" configVersion="8d59ca61bce2424fe09abd4c44894dd479d5bda2"/>
-		<Metadata name="Document.КорректировкаРегистров" id="87171e20-7482-4a31-91e4-5168f45bde5b" configVersion="3fc6003c55d6f394a75666a69de9ba1768bcff99"/>
-		<Metadata name="Document.НачислениеИСписаниеБонусныхБаллов" id="b1881eeb-e66e-4101-be4a-a49bb867f706" configVersion="f2a10f85008e12217868e8d1e85398706b49d654"/>
-		<Metadata name="Document.ОтчетОРозничныхПродажах" id="02af3b9c-bea5-462d-8436-2231ecf13d2f" configVersion="485ccd38f27f8b40a58688b910bf0a5cdf6a194c"/>
-		<Metadata name="Document.РеализацияТоваров" id="21098109-58ee-4883-be12-a6fccdd13c7b" configVersion="006e804ad79bf4e13ad23b79d4cfa37c8850d6a8"/>
-		<Metadata name="Document.ЧекККМ" id="81f620a1-de84-496c-b324-9e43ca6db441" configVersion="c179a20717b27cbf7680a1989860bae87b0d3d75"/>
-		<Metadata name="Enum.пд_ВидыВыгрузки" id="42f85b50-1490-4900-9705-e971903608b6" configVersion="37a418f55111b8f226408a0dcd8fc10220d54c58">
+		<Metadata name="AccumulationRegister.БонусныеБаллы.RecordSetModule" id="7b286177-6662-4cc4-bf67-11b3dc3ae819.1" configVersion="4cdd7fd50d0be977677ad31371af81ab24264fb9"/>
+		<Metadata name="AccumulationRegister.ПродажиПоДисконтнымКартам" id="e80c0e94-3601-4c64-8129-906adc928c9b" configVersion="d6fe407ccd0347a2ea553bd5be0a2da80b5a7a15"/>
+		<Metadata name="AccumulationRegister.ПродажиПоДисконтнымКартам.RecordSetModule" id="e80c0e94-3601-4c64-8129-906adc928c9b.1" configVersion="794143d82e2e4844896ef737543469a2cc244389"/>
+		<Metadata name="Catalog.ИнформационныеКарты" id="81b10162-ed99-4516-b07e-db563b5c8867" configVersion="84e62f8acb2f870c4dcf195a019d4f95a2608b72"/>
+		<Metadata name="Catalog.Магазины" id="e26190cf-4c5b-4d7e-bc6c-f4bd66aff5a4" configVersion="73939dda2b736a0b2938c402c6ad46b932731d10"/>
+		<Metadata name="CommonCommand.пд_НастройкаИнтеграции" id="140d7a41-95d6-4735-8f76-c46977af6713" configVersion="17f0c34cccbc86166bc221495ff8ba4260dee880"/>
+		<Metadata name="CommonCommand.пд_НастройкаИнтеграции.CommandModule" id="140d7a41-95d6-4735-8f76-c46977af6713.2" configVersion="d3fe4541b0315b24ef8e93dc694632665f5453f1"/>
+		<Metadata name="CommonForm.пд_НастройкаИнтеграцииСLegendCity" id="ed49a8b3-85d9-4a24-85c6-5e468774fc91" configVersion="0e5c2be114ae36c4260b321b5228d785a5ad85b7"/>
+		<Metadata name="CommonForm.пд_НастройкаИнтеграцииСLegendCity.Form" id="ed49a8b3-85d9-4a24-85c6-5e468774fc91.0" configVersion="e316223b05472dc84f05e2a698ec108eb7b2fd00"/>
+		<Metadata name="CommonModule.ДополнительныеОтчетыИОбработки" id="19c2600b-f4d1-46e8-a6b3-2ec6fa7f3fd2" configVersion="aeb7b89e851cbcf9392f68ff3a15483ae6f33b4c"/>
+		<Metadata name="CommonModule.ДополнительныеОтчетыИОбработки.Module" id="19c2600b-f4d1-46e8-a6b3-2ec6fa7f3fd2.0" configVersion="da7bc68c93a9477eeca83ff67315f98520b236d1"/>
+		<Metadata name="CommonModule.пд_ОбменСLegendCity" id="691a3d8f-63b4-43d3-82f5-c22119ab2d53" configVersion="b6ca03e08621f06764607bfc22fd805b3430fd0d"/>
+		<Metadata name="CommonModule.пд_ОбменСLegendCity.Module" id="691a3d8f-63b4-43d3-82f5-c22119ab2d53.0" configVersion="d445134462f5c2de690404d01d1565008ac02174"/>
+		<Metadata name="Configuration.ИнтеграцияСLegendCity" id="3076f171-9e16-45a8-84ab-9e4fba04071a" configVersion="bde73ab4a1e12117925f8f1ef095cd74fbbe14df"/>
+		<Metadata name="Document.ВводОстатковПоНакопительнымСкидкам" id="0f092bb1-ec93-4e90-90b7-b29803e85626" configVersion="3314f8e2f9d26f6ba71d64e7849843cdab03b989"/>
+		<Metadata name="Document.ВозвратТоваровОтПокупателя" id="38f765eb-b7e1-4d32-816c-63e2ae74200a" configVersion="e9ab659ea1d09a0237d42f2eedea28449d25086c"/>
+		<Metadata name="Document.КорректировкаРегистров" id="87171e20-7482-4a31-91e4-5168f45bde5b" configVersion="1f2c1b856ae65cc364bbd81e0a39535e82d5aa23"/>
+		<Metadata name="Document.НачислениеИСписаниеБонусныхБаллов" id="b1881eeb-e66e-4101-be4a-a49bb867f706" configVersion="1f76bc67cf129ee3e38e67554f9e82629289f03b"/>
+		<Metadata name="Document.ОтчетОРозничныхПродажах" id="02af3b9c-bea5-462d-8436-2231ecf13d2f" configVersion="c2cc93fb1e31fa0860e8b093dda5b433913aa381"/>
+		<Metadata name="Document.РеализацияТоваров" id="21098109-58ee-4883-be12-a6fccdd13c7b" configVersion="c3c527fd8ddc0dd7494060c58815ac3e85e7aa77"/>
+		<Metadata name="Document.ЧекККМ" id="81f620a1-de84-496c-b324-9e43ca6db441" configVersion="45a0128f678bda469394cf953d5d395c07703852"/>
+		<Metadata name="Enum.пд_ВидыВыгрузки" id="42f85b50-1490-4900-9705-e971903608b6" configVersion="a9e1e21aa76d81e2a2e8a86a5a21e6f696bb3ad6">
 			<Metadata name="Enum.пд_ВидыВыгрузки.EnumValue.Продажа" id="69120cc0-0a0e-4e4e-af9a-cd86940519e9"/>
 			<Metadata name="Enum.пд_ВидыВыгрузки.EnumValue.Бонус" id="a1208232-3586-4aaa-b2e6-7436a9775190"/>
 		</Metadata>
-		<Metadata name="Enum.пд_РезультатВыгрузки" id="43416975-f1b0-46f4-8906-f6c28f0f32bc" configVersion="24e38031491d1fba2204da40f198d042dfe33537">
+		<Metadata name="Enum.пд_РезультатВыгрузки" id="43416975-f1b0-46f4-8906-f6c28f0f32bc" configVersion="cb60990617a98241ddcc47e16483f422a9a7c73d">
 			<Metadata name="Enum.пд_РезультатВыгрузки.EnumValue.Успешно" id="0df0956a-42bb-4416-9725-14605b8180f0"/>
 			<Metadata name="Enum.пд_РезультатВыгрузки.EnumValue.Ошибка" id="c5a5305f-7ef3-4271-9516-4056b92e1720"/>
 			<Metadata name="Enum.пд_РезультатВыгрузки.EnumValue.КВыгрузке" id="f8edb6e3-3ef6-48c7-9668-49f571f00800"/>
 		</Metadata>
-		<Metadata name="InformationRegister.пд_БонусныеНачисленияИПродажиКВыгрузке" id="06c41c31-28d7-49e5-9295-b21b2a3c13fe" configVersion="21cfcc18b38fa69789f0786c564fbefed885a1ce">
+		<Metadata name="InformationRegister.пд_БонусныеНачисленияИПродажиКВыгрузке" id="06c41c31-28d7-49e5-9295-b21b2a3c13fe" configVersion="ea639df479ac1f1407255661f2694831683b8c08">
 			<Metadata name="InformationRegister.пд_БонусныеНачисленияИПродажиКВыгрузке.Resource.Идентификатор" id="12b34896-25bd-404d-bf5c-516f8d34c345"/>
 			<Metadata name="InformationRegister.пд_БонусныеНачисленияИПродажиКВыгрузке.Resource.ВидОперации" id="1ac6c17c-9930-4228-a1e6-66ec6a8cd18a"/>
 			<Metadata name="InformationRegister.пд_БонусныеНачисленияИПродажиКВыгрузке.Resource.ОписаниеОшибки" id="284de996-a691-4093-b298-8d29fbac43c2"/>
@@ -45,17 +45,17 @@
 			<Metadata name="InformationRegister.пд_БонусныеНачисленияИПродажиКВыгрузке.Dimension.Документ" id="cad06ae0-48b4-4def-9007-e02c58e83293"/>
 			<Metadata name="InformationRegister.пд_БонусныеНачисленияИПродажиКВыгрузке.Dimension.ВидВыгрузки" id="e385c7f6-c3ab-44f4-ba1a-85e72e7a644a"/>
 		</Metadata>
-		<Metadata name="InformationRegister.пд_БонусныеНачисленияИПродажиКВыгрузке.Form.ФормаЗаписи" id="db10425c-27fa-4597-bc5d-a5f03173c1bb" configVersion="adf4d1dc534c495edacad4f2ca975637bf014b05"/>
-		<Metadata name="InformationRegister.пд_БонусныеНачисленияИПродажиКВыгрузке.Form.ФормаЗаписи.Form" id="db10425c-27fa-4597-bc5d-a5f03173c1bb.0" configVersion="7fc7f2e6a88e8b4c170d8afba510a2954186cd5e"/>
-		<Metadata name="InformationRegister.пд_БонусныеНачисленияИПродажиКВыгрузке.Form.ФормаСписка" id="c2024b95-d0a3-4921-85ab-be6875e8baad" configVersion="dd77a7f64622b4b4f9dd193bb679908d0026706c"/>
-		<Metadata name="InformationRegister.пд_БонусныеНачисленияИПродажиКВыгрузке.Form.ФормаСписка.Form" id="c2024b95-d0a3-4921-85ab-be6875e8baad.0" configVersion="4cdcabf6eebe613065a82307f6cb3a47760e7986"/>
-		<Metadata name="Language.Русский" id="5ed6fade-30ce-4c5e-a43f-081954d35a19" configVersion="d8aeefed4917bb421a95e4709aa9f2667a0ebe13"/>
-		<Metadata name="Role.ПолныеПрава" id="6e74aad6-7e2f-475f-a6b3-2430a77b6a9b" configVersion="e018f8d0bc0f2fc808ce0d431b2408b1e38d333a"/>
-		<Metadata name="Role.ПолныеПрава.Rights" id="6e74aad6-7e2f-475f-a6b3-2430a77b6a9b.0" configVersion="88c314a809a4df99010b98c214af3c6feade2ce3"/>
+		<Metadata name="InformationRegister.пд_БонусныеНачисленияИПродажиКВыгрузке.Form.ФормаЗаписи" id="db10425c-27fa-4597-bc5d-a5f03173c1bb" configVersion="4aa5477684d50b3c562077eaf0a7e606e4500e19"/>
+		<Metadata name="InformationRegister.пд_БонусныеНачисленияИПродажиКВыгрузке.Form.ФормаЗаписи.Form" id="db10425c-27fa-4597-bc5d-a5f03173c1bb.0" configVersion="411d433971d01f633e2331bda26318aadb57274d"/>
+		<Metadata name="InformationRegister.пд_БонусныеНачисленияИПродажиКВыгрузке.Form.ФормаСписка" id="c2024b95-d0a3-4921-85ab-be6875e8baad" configVersion="733c82037c62c5dd21e6a909f8dea0dfab973bed"/>
+		<Metadata name="InformationRegister.пд_БонусныеНачисленияИПродажиКВыгрузке.Form.ФормаСписка.Form" id="c2024b95-d0a3-4921-85ab-be6875e8baad.0" configVersion="7cb07ad991dff573703c8b1186dcc9dc0de08024"/>
+		<Metadata name="Language.Русский" id="5ed6fade-30ce-4c5e-a43f-081954d35a19" configVersion="06bc1e90e8a453e017d34f5fcc0230e195657ba0"/>
+		<Metadata name="Role.ПолныеПрава" id="6e74aad6-7e2f-475f-a6b3-2430a77b6a9b" configVersion="6048800efcbe0597b9188224d6f7c3cdb672a2a8"/>
+		<Metadata name="Role.ПолныеПрава.Rights" id="6e74aad6-7e2f-475f-a6b3-2430a77b6a9b.0" configVersion="85a23ced239680cd529c060d97f1967ba64ed047"/>
 		<Metadata name="Role.пд_ИспользоватьОбменLegendCity" id="e49cef5a-7c56-4802-82d5-e07f0f7c97cb" configVersion="ba358a3cdf88beaac50f6bf991a06b6a347911b4"/>
-		<Metadata name="Role.пд_ИспользоватьОбменLegendCity.Rights" id="e49cef5a-7c56-4802-82d5-e07f0f7c97cb.0" configVersion="ad16323428433f1310afcfd33a687d8c85cc2802"/>
-		<Metadata name="Subsystem.Администрирование" id="d83f3d51-edeb-4385-9c06-2b09353cd4f7" configVersion="638f28df26339451899f496c197b99f32af80e62"/>
-		<Metadata name="Subsystem.пд_ИнтеграцияLegendCity" id="71fd4502-84bf-41df-af38-62d2878c51d9" configVersion="6b934a26fedde227e44aa2918bed6981663a7dff"/>
+		<Metadata name="Role.пд_ИспользоватьОбменLegendCity.Rights" id="e49cef5a-7c56-4802-82d5-e07f0f7c97cb.0" configVersion="1eb26d4ecc61692ebf98289727d6b156caf24f47"/>
+		<Metadata name="Subsystem.Администрирование" id="d83f3d51-edeb-4385-9c06-2b09353cd4f7" configVersion="fa4c9032249b96f25a2c13287eeae3c8ce29867b"/>
+		<Metadata name="Subsystem.пд_ИнтеграцияLegendCity" id="71fd4502-84bf-41df-af38-62d2878c51d9" configVersion="8f66329ada80f079a85e9d741fab6563a7bbfb43"/>
 		<Metadata name="Subsystem.пд_ИнтеграцияLegendCity.CommandInterface" id="71fd4502-84bf-41df-af38-62d2878c51d9.1" configVersion="09719e84ffea99dedda6932a29bcebbc40d24b50"/>
 	</ConfigVersions>
 </ConfigDumpInfo>
