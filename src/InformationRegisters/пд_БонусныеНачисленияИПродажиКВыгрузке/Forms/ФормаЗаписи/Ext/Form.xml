@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.11">
+	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<ChildItems>
+		<UsualGroup name="ГруппаШапка" id="25">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа шапка</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа шапка</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>AlwaysHorizontal</Group>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаШапкаРасширеннаяПодсказка" id="26"/>
+			<ChildItems>
+				<InputField name="ВидВыгрузки" id="22">
+					<DataPath>Запись.ВидВыгрузки</DataPath>
+					<ReadOnly>true</ReadOnly>
+					<HorizontalStretch>false</HorizontalStretch>
+					<ContextMenu name="ВидВыгрузкиКонтекстноеМеню" id="23"/>
+					<ExtendedTooltip name="ВидВыгрузкиРасширеннаяПодсказка" id="24"/>
+				</InputField>
+				<InputField name="ВидОперации" id="19">
+					<DataPath>1/0:0098ba8e-1341-41f7-af11-eb056a934225</DataPath>
+					<ReadOnly>true</ReadOnly>
+					<ContextMenu name="ВидОперацииКонтекстноеМеню" id="20"/>
+					<ExtendedTooltip name="ВидОперацииРасширеннаяПодсказка" id="21"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+		<InputField name="Документ" id="7">
+			<DataPath>Запись.Документ</DataPath>
+			<ReadOnly>true</ReadOnly>
+			<ChoiceButton>false</ChoiceButton>
+			<ClearButton>false</ClearButton>
+			<OpenButton>true</OpenButton>
+			<ContextMenu name="ДокументКонтекстноеМеню" id="8"/>
+			<ExtendedTooltip name="ДокументРасширеннаяПодсказка" id="9"/>
+		</InputField>
+		<InputField name="БонуснаяКарта" id="4">
+			<DataPath>Запись.БонуснаяКарта</DataPath>
+			<ReadOnly>true</ReadOnly>
+			<ChoiceButton>false</ChoiceButton>
+			<OpenButton>true</OpenButton>
+			<ContextMenu name="БонуснаяКартаКонтекстноеМеню" id="5"/>
+			<ExtendedTooltip name="БонуснаяКартаРасширеннаяПодсказка" id="6"/>
+		</InputField>
+		<InputField name="Идентификатор" id="13">
+			<DataPath>Запись.Идентификатор</DataPath>
+			<ReadOnly>true</ReadOnly>
+			<ContextMenu name="ИдентификаторКонтекстноеМеню" id="14"/>
+			<ExtendedTooltip name="ИдентификаторРасширеннаяПодсказка" id="15"/>
+		</InputField>
+		<UsualGroup name="ГруппаПодвал" id="27">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа подвал</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа подвал</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>AlwaysHorizontal</Group>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаПодвалРасширеннаяПодсказка" id="28"/>
+			<ChildItems>
+				<InputField name="Результат" id="32">
+					<DataPath>Запись.Результат</DataPath>
+					<ReadOnly>true</ReadOnly>
+					<HorizontalStretch>false</HorizontalStretch>
+					<ContextMenu name="РезультатКонтекстноеМеню" id="33"/>
+					<ExtendedTooltip name="РезультатРасширеннаяПодсказка" id="34"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+		<InputField name="ОписаниеОшибки" id="29">
+			<DataPath>Запись.ОписаниеОшибки</DataPath>
+			<ReadOnly>true</ReadOnly>
+			<AutoMaxWidth>false</AutoMaxWidth>
+			<Height>4</Height>
+			<HorizontalStretch>true</HorizontalStretch>
+			<MultiLine>true</MultiLine>
+			<ChooseType>false</ChooseType>
+			<ContextMenu name="ОписаниеОшибкиКонтекстноеМеню" id="30"/>
+			<ExtendedTooltip name="ОписаниеОшибкиРасширеннаяПодсказка" id="31"/>
+		</InputField>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Запись" id="1">
+			<Type>
+				<v8:Type>cfg:InformationRegisterRecordManager.пд_БонусныеНачисленияИПродажиКВыгрузке</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+		</Attribute>
+	</Attributes>
+</Form>
