@@ -96,7 +96,7 @@
 					<ExtendedTooltip name="ТаблицаИдентификаторТерминалаРасширеннаяПодсказка" id="30"/>
 					<SearchStringAddition name="ТаблицаИдентификаторТерминалаСтрокаПоиска" id="31">
 						<AdditionSource>
-							<Item>ТаблицаИдентификаторТерминала</Item>
+							<Item>ИдентификаторТерминалаРасширеннаяПодсказка</Item>
 							<Type>SearchStringRepresentation</Type>
 						</AdditionSource>
 						<ContextMenu name="ТаблицаИдентификаторТерминалаСтрокаПоискаКонтекстноеМеню" id="32"/>
@@ -104,7 +104,7 @@
 					</SearchStringAddition>
 					<ViewStatusAddition name="ТаблицаИдентификаторТерминалаСостояниеПросмотра" id="34">
 						<AdditionSource>
-							<Item>ТаблицаИдентификаторТерминала</Item>
+							<Item>ИдентификаторТерминалаРасширеннаяПодсказка</Item>
 							<Type>ViewStatusRepresentation</Type>
 						</AdditionSource>
 						<ContextMenu name="ТаблицаИдентификаторТерминалаСостояниеПросмотраКонтекстноеМеню" id="35"/>
@@ -112,7 +112,7 @@
 					</ViewStatusAddition>
 					<SearchControlAddition name="ТаблицаИдентификаторТерминалаУправлениеПоиском" id="37">
 						<AdditionSource>
-							<Item>ТаблицаИдентификаторТерминала</Item>
+							<Item>ИдентификаторТерминалаРасширеннаяПодсказка</Item>
 							<Type>SearchControl</Type>
 						</AdditionSource>
 						<ContextMenu name="ТаблицаИдентификаторТерминалаУправлениеПоискомКонтекстноеМеню" id="38"/>
