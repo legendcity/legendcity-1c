@@ -7,6 +7,12 @@ All notable changes to this project will be documented in this file.
 ### Added
 - Coming soon ...
 
+## [1.0.1] - 2022-02-28
+
+### Fixed
+
+- Исправление прав доступа в модуле расширения ([#12](https://github.com/legendcity/legendcity-1c/issues/12))
+
 ## [1.0.0] - 2022-01-08
 
 ### Added
