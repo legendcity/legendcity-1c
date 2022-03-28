@@ -7,6 +7,12 @@ All notable changes to this project will be documented in this file.
 ### Added
 - Coming soon ...
 
+## [1.1.0] - 2022-03-28
+
+### Fixed
+
+- Ошибка при первом открытии модуля в Розница, редакция 2.2 ([#13](https://github.com/legendcity/legendcity-1c/issues/13))
+
 ## [1.0.1] - 2022-02-28
 
 ### Fixed
