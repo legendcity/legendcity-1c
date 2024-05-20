@@ -25,6 +25,7 @@
 		</InternalInfo>
 		<Properties>
 			<Name>ВводОстатковПоНакопительнымСкидкам</Name>
+			<Comment/>
 			<ObjectBelonging>Adopted</ObjectBelonging>
 			<RegisterRecords/>
 		</Properties>

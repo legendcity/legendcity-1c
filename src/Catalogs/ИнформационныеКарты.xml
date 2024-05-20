@@ -25,6 +25,7 @@
 		</InternalInfo>
 		<Properties>
 			<Name>ИнформационныеКарты</Name>
+			<Comment/>
 			<ObjectBelonging>Adopted</ObjectBelonging>
 		</Properties>
 		<ChildObjects/>

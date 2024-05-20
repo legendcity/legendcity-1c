@@ -25,6 +25,7 @@
 		</InternalInfo>
 		<Properties>
 			<Name>ВозвратТоваровОтПокупателя</Name>
+			<Comment/>
 			<ObjectBelonging>Adopted</ObjectBelonging>
 			<RegisterRecords/>
 		</Properties>

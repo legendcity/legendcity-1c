@@ -25,6 +25,7 @@
 		</InternalInfo>
 		<Properties>
 			<Name>Магазины</Name>
+			<Comment/>
 			<ObjectBelonging>Adopted</ObjectBelonging>
 		</Properties>
 		<ChildObjects/>

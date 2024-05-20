@@ -25,6 +25,7 @@
 		</InternalInfo>
 		<Properties>
 			<Name>НачислениеИСписаниеБонусныхБаллов</Name>
+			<Comment/>
 			<ObjectBelonging>Adopted</ObjectBelonging>
 			<RegisterRecords/>
 		</Properties>

@@ -25,6 +25,7 @@
 		</InternalInfo>
 		<Properties>
 			<Name>РеализацияТоваров</Name>
+			<Comment/>
 			<ObjectBelonging>Adopted</ObjectBelonging>
 			<RegisterRecords/>
 		</Properties>

@@ -29,6 +29,7 @@
 		</InternalInfo>
 		<Properties>
 			<Name>ПродажиПоДисконтнымКартам</Name>
+			<Comment/>
 			<ObjectBelonging>Adopted</ObjectBelonging>
 			<RegisterType>Turnovers</RegisterType>
 		</Properties>

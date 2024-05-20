@@ -25,6 +25,7 @@
 		</InternalInfo>
 		<Properties>
 			<Name>ОтчетОРозничныхПродажах</Name>
+			<Comment/>
 			<ObjectBelonging>Adopted</ObjectBelonging>
 			<RegisterRecords/>
 		</Properties>
