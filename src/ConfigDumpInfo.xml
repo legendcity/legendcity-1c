@@ -18,7 +18,7 @@
 		<Metadata name="CommonModule.ДополнительныеОтчетыИОбработки.Module" id="19c2600b-f4d1-46e8-a6b3-2ec6fa7f3fd2.0" configVersion="7063b7c28a659175d56e5170c4a4b1f9a9405edc"/>
 		<Metadata name="CommonModule.пд_ОбменСLegendCity" id="691a3d8f-63b4-43d3-82f5-c22119ab2d53" configVersion="cfe6adfd95b10bdb66c38227d6e3a197fc3ade21"/>
 		<Metadata name="CommonModule.пд_ОбменСLegendCity.Module" id="691a3d8f-63b4-43d3-82f5-c22119ab2d53.0" configVersion="56066c916261f4208917e254a2711ea87842cf2e"/>
-		<Metadata name="Configuration.ИнтеграцияСLegendCity" id="3076f171-9e16-45a8-84ab-9e4fba04071a" configVersion="7dcb243e46a60ea8504c53ed0b3a618963b8418a"/>
+		<Metadata name="Configuration.Legendcity" id="3076f171-9e16-45a8-84ab-9e4fba04071a" configVersion="7dcb243e46a60ea8504c53ed0b3a618963b8418a"/>
 		<Metadata name="Document.ВводОстатковПоНакопительнымСкидкам" id="0f092bb1-ec93-4e90-90b7-b29803e85626" configVersion="fd6a0b3e528fd55d32acc1e524c424afa967984f"/>
 		<Metadata name="Document.ВозвратТоваровОтПокупателя" id="38f765eb-b7e1-4d32-816c-63e2ae74200a" configVersion="8d59ca61bce2424fe09abd4c44894dd479d5bda2"/>
 		<Metadata name="Document.КорректировкаРегистров" id="87171e20-7482-4a31-91e4-5168f45bde5b" configVersion="3fc6003c55d6f394a75666a69de9ba1768bcff99"/>

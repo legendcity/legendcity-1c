@@ -2,20 +2,8 @@ name: Github Release
 
 on:
   workflow_dispatch:
-    inputs:
-      name:
-        description: "Output artifact and cfe file name"
-        default: "legendcity"
-        required: true
-        type: string
 
   workflow_call:
-    inputs:
-      name:
-        description: "Output artifact and cfe file name"
-        default: "legendcity"
-        required: true
-        type: string
 
 jobs:
   github-release:
@@ -25,10 +13,13 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Download *.cfe
-        uses: actions/download-artifact@main
+        uses: actions/download-artifact@v2
         with:
-          name: ${{ inputs.name }}
+          name: legendcity-cfe-archive
           path: build/
+
+      - name: Display structure of downloaded files
+        run: ls -R build/
 
       - name: GitHub Release creation
         uses: anton-yurchenko/git-release@main

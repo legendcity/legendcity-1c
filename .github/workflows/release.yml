@@ -1,5 +1,10 @@
 name: Release
 
+# git tag v0.0.0
+# git push origin --tags
+# git push --delete origin v0.0.0
+# git tag --delete v0.0.0
+
 on:
   push:
     # branches:
@@ -10,11 +15,7 @@ on:
 jobs:
   build:
     uses: legendcity/legendcity-1c/.github/workflows/build-cfe.yml@main
-    with:
-      name: legendcity
 
   release:
     needs: build
     uses: legendcity/legendcity-1c/.github/workflows/github-release.yml@main
-    with:
-      name: legendcity

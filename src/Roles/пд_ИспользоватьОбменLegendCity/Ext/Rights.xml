@@ -70,7 +70,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Configuration.ИнтеграцияСLegendCity</name>
+		<name>Configuration.Legendcity</name>
 		<right>
 			<name>ThinClient</name>
 			<value>true</value>

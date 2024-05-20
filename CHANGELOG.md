@@ -7,6 +7,12 @@ All notable changes to this project will be documented in this file.
 ### Added
 - Coming soon ...
 
+## [1.1.1] - 2024-06-21
+
+### Changed
+
+- Изменено название файла расширения `Legendcity-[1C конфигурация]-[Версия].cfe`. Например, `Legendcity-Retail-2.2-v1.1.1.cfe`.
+
 ## [1.1.0] - 2022-03-28
 
 ### Fixed
