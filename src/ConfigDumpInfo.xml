@@ -2,7 +2,6 @@
 <ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.7">
 	<ConfigVersions>
 		<Metadata name="AccumulationRegister.БонусныеБаллы" id="7b286177-6662-4cc4-bf67-11b3dc3ae819" configVersion="72513c855e8108bf25cdf3ff1833054580e23717">
-			<Metadata name="AccumulationRegister.БонусныеБаллы.Dimension.ДисконтнаяКарта" id="f23ae344-7856-4887-91c5-ec21a07f11c1"/>
 			<Metadata name="AccumulationRegister.БонусныеБаллы.Resource.Начислено" id="f384e0bd-6d37-4aa2-a648-1114a586ba17"/>
 		</Metadata>
 		<Metadata name="AccumulationRegister.БонусныеБаллы.RecordSetModule" id="7b286177-6662-4cc4-bf67-11b3dc3ae819.1" configVersion="cf69b76eb4366fd8b11c79a84f9ed71d87371bcf"/>

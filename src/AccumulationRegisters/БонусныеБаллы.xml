@@ -50,15 +50,6 @@
 					</Type>
 				</Properties>
 			</Resource>
-			<Dimension uuid="f23ae344-7856-4887-91c5-ec21a07f11c1">
-				<Properties>
-					<Name>ДисконтнаяКарта</Name>
-					<ObjectBelonging>Adopted</ObjectBelonging>
-					<Type>
-						<v8:Type>cfg:CatalogRef.ИнформационныеКарты</v8:Type>
-					</Type>
-				</Properties>
-			</Dimension>
 		</ChildObjects>
 	</AccumulationRegister>
 </MetaDataObject>

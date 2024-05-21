@@ -5,9 +5,16 @@ All notable changes to this project will be documented in this file.
 ## [Unreleased]
 
 ### Added
+
 - Coming soon ...
 
-## [1.1.1] - 2024-06-21
+## [1.2.0] - 2024-05-21
+
+### Added
+
+- Поддержка конфигурации Розница 2.3 ([#6](https://github.com/legendcity/legendcity-1c/issues/6))
+
+## [1.1.1] - 2024-05-21
 
 ### Changed
 

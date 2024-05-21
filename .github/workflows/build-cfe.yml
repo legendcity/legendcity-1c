@@ -20,17 +20,18 @@ jobs:
   build-cfe:
     strategy:
       matrix:
-        items: [
+        items:
+          [
             {
               name1c: "Retail-2.2",
               bin1c: 'C:\Program Files\1cv8\8.3.17.1549\bin\1cv8.exe',
               template1c: 'C:\Users\User\AppData\Roaming\1C\1c8\tmplts\1c\Retail\2_2_12_30\1Cv8.dt',
             },
-            # {
-            #   name1c: 'Retail-2.3',
-            #   bin1c: 'C:\Program Files\1cv8\8.3.17.1549\bin\1cv8.exe',
-            #   template1c: 'C:\Users\User\AppData\Roaming\1C\1c8\tmplts\1c\Retail\2_3_9_42\1Cv8.dt',
-            # },
+            {
+              name1c: "Retail-2.3",
+              bin1c: 'C:\Program Files\1cv8\8.3.17.1549\bin\1cv8.exe',
+              template1c: 'C:\Users\User\AppData\Roaming\1C\1c8\tmplts\1c\Retail\2_3_9_42\demo.dt',
+            },
           ]
 
     runs-on: [self-hosted, windows, x64, 1c]
