@@ -4,9 +4,9 @@ All notable changes to this project will be documented in this file.
 
 ## [Unreleased]
 
-### Added
+### Changed
 
-- Coming soon ...
+- Расширено описание ошибки http запроса
 
 ## [1.2.0] - 2024-05-21
 
