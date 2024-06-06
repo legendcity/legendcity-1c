@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.17">
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
 		<Autofill>false</Autofill>
 		<ChildItems>
@@ -45,36 +45,95 @@
 			<Representation>NormalSeparation</Representation>
 			<ExtendedTooltip name="ГруппаНастройкиПодключенияРасширеннаяПодсказка" id="8"/>
 			<ChildItems>
-				<InputField name="АдресСервиса" id="1">
-					<DataPath>АдресСервиса</DataPath>
-					<HorizontalStretch>false</HorizontalStretch>
-					<DropListButton>true</DropListButton>
-					<ChooseType>false</ChooseType>
-					<ChoiceList>
-						<xr:Item>
-							<xr:Presentation/>
-							<xr:CheckState>0</xr:CheckState>
-							<xr:Value xsi:type="FormChoiceListDesTimeValue">
-								<Presentation>
-									<v8:item>
-										<v8:lang>ru</v8:lang>
-										<v8:content>api.legendcity.ru</v8:content>
-									</v8:item>
-								</Presentation>
-								<Value xsi:type="xs:string">https://api.legendcity.ru</Value>
-							</xr:Value>
-						</xr:Item>
-					</ChoiceList>
-					<ContextMenu name="АдресСервисаКонтекстноеМеню" id="2"/>
-					<ExtendedTooltip name="АдресСервисаРасширеннаяПодсказка" id="3"/>
-				</InputField>
-				<InputField name="КлючAPI" id="4">
-					<DataPath>КлючAPI</DataPath>
-					<HorizontalStretch>false</HorizontalStretch>
-					<ClearButton>true</ClearButton>
-					<ContextMenu name="КлючAPIКонтекстноеМеню" id="5"/>
-					<ExtendedTooltip name="КлючAPIРасширеннаяПодсказка" id="6"/>
-				</InputField>
+				<UsualGroup name="ГруппаАдресСервиса" id="46">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа адрес сервиса</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа адрес сервиса</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ГруппаАдресСервисаРасширеннаяПодсказка" id="47"/>
+					<ChildItems>
+						<InputField name="АдресСервиса" id="1">
+							<DataPath>АдресСервиса</DataPath>
+							<HorizontalStretch>false</HorizontalStretch>
+							<DropListButton>true</DropListButton>
+							<ChooseType>false</ChooseType>
+							<TextEdit>false</TextEdit>
+							<ChoiceList>
+								<xr:Item>
+									<xr:Presentation/>
+									<xr:CheckState>0</xr:CheckState>
+									<xr:Value xsi:type="FormChoiceListDesTimeValue">
+										<Presentation>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>api.legendcity.ru</v8:content>
+											</v8:item>
+										</Presentation>
+										<Value xsi:type="xs:string">https://api.legendcity.ru</Value>
+									</xr:Value>
+								</xr:Item>
+							</ChoiceList>
+							<ContextMenu name="АдресСервисаКонтекстноеМеню" id="2"/>
+							<ExtendedTooltip name="АдресСервисаРасширеннаяПодсказка" id="3"/>
+						</InputField>
+						<Button name="ТестСоединения" id="48">
+							<Type>Hyperlink</Type>
+							<Representation>PictureAndText</Representation>
+							<CommandName>Form.Command.ТестСоединения</CommandName>
+							<Picture>
+								<xr:Ref>StdPicture.AppearanceCircleEmpty</xr:Ref>
+								<xr:LoadTransparent>true</xr:LoadTransparent>
+							</Picture>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Тест соединения</v8:content>
+								</v8:item>
+							</Title>
+							<ExtendedTooltip name="ТестСоединенияРасширеннаяПодсказка" id="49"/>
+						</Button>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="ГруппаКлюча" id="50">
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа ключа</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ГруппаКлючаРасширеннаяПодсказка" id="51"/>
+					<ChildItems>
+						<InputField name="КлючAPI" id="4">
+							<DataPath>КлючAPI</DataPath>
+							<HorizontalStretch>false</HorizontalStretch>
+							<ClearButton>true</ClearButton>
+							<ContextMenu name="КлючAPIКонтекстноеМеню" id="5"/>
+							<ExtendedTooltip name="КлючAPIРасширеннаяПодсказка" id="6"/>
+						</InputField>
+						<Button name="ТестКлюча" id="52">
+							<Type>Hyperlink</Type>
+							<Representation>PictureAndText</Representation>
+							<CommandName>Form.Command.ТестКлюча</CommandName>
+							<Picture>
+								<xr:Ref>StdPicture.AppearanceCircleEmpty</xr:Ref>
+								<xr:LoadTransparent>true</xr:LoadTransparent>
+							</Picture>
+							<ExtendedTooltip name="ТестКлючаРасширеннаяПодсказка" id="53"/>
+						</Button>
+					</ChildItems>
+				</UsualGroup>
 				<InputField name="ИдентификаторТерминала" id="24">
 					<DataPath>ИдентификаторТерминала</DataPath>
 					<Width>10</Width>
@@ -92,7 +151,34 @@
 					<DataPath>ТаблицаИдентификаторТерминала</DataPath>
 					<RowFilter xsi:nil="true"/>
 					<ContextMenu name="ТаблицаИдентификаторТерминалаКонтекстноеМеню" id="28"/>
-					<AutoCommandBar name="ТаблицаИдентификаторТерминалаКоманднаяПанель" id="29"/>
+					<AutoCommandBar name="ТаблицаИдентификаторТерминалаКоманднаяПанель" id="29">
+						<ChildItems>
+							<Button name="ТаблицаИдентификаторТерминалаКнопкаИнформация" id="54">
+								<Type>CommandBarButton</Type>
+								<Representation>PictureAndText</Representation>
+								<CommandName>Form.Command.Информация</CommandName>
+								<Picture>
+									<xr:Ref>StdPicture.Information</xr:Ref>
+									<xr:LoadTransparent>true</xr:LoadTransparent>
+								</Picture>
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Информация</v8:content>
+									</v8:item>
+								</Title>
+								<PictureLocation>Right</PictureLocation>
+								<ExtendedTooltip name="ТаблицаИдентификаторТерминалаКнопкаИнформацияРасширеннаяПодсказка" id="55">
+									<Title formatted="false">
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Выводит информацию по выделенному идентификатору</v8:content>
+										</v8:item>
+									</Title>
+								</ExtendedTooltip>
+							</Button>
+						</ChildItems>
+					</AutoCommandBar>
 					<ExtendedTooltip name="ТаблицаИдентификаторТерминалаРасширеннаяПодсказка" id="30"/>
 					<SearchStringAddition name="ТаблицаИдентификаторТерминалаСтрокаПоиска" id="31">
 						<AdditionSource>
@@ -359,6 +445,51 @@
 			</Picture>
 			<Action>СписокКВыгрузке</Action>
 			<Representation>TextPicture</Representation>
+		</Command>
+		<Command name="ТестСоединения" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Тест соединения</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Тест соединения</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ТестСоединения</Action>
+		</Command>
+		<Command name="ТестКлюча" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Тест ключа</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Тест ключа</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ТестКлюча</Action>
+		</Command>
+		<Command name="Информация" id="6">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Информация</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Информация</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Информация</Action>
 		</Command>
 	</Commands>
 </Form>
