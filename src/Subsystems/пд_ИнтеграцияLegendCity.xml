@@ -12,6 +12,7 @@
 			<Comment/>
 			<IncludeHelpInContents>true</IncludeHelpInContents>
 			<IncludeInCommandInterface>false</IncludeInCommandInterface>
+			<UseOneCommand>false</UseOneCommand>
 			<Explanation/>
 			<Picture/>
 			<Content>

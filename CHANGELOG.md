@@ -7,6 +7,7 @@ All notable changes to this project will be documented in this file.
 ### Changed
 
 - Расширено описание ошибки http запроса
+- Тест соедниеня с апи ([#19](https://github.com/legendcity/legendcity-1c/issues/19))
 
 ## [1.2.0] - 2024-05-21
 
