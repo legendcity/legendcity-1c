@@ -317,6 +317,7 @@
 					<Indexing>DontIndex</Indexing>
 					<FullTextSearch>Use</FullTextSearch>
 					<DataHistory>Use</DataHistory>
+					<TypeReductionMode>TransformValues</TypeReductionMode>
 				</Properties>
 			</Dimension>
 			<Dimension uuid="726b0bbe-8858-417c-908c-c5d89d36e83a">
@@ -359,6 +360,7 @@
 					<Indexing>DontIndex</Indexing>
 					<FullTextSearch>Use</FullTextSearch>
 					<DataHistory>Use</DataHistory>
+					<TypeReductionMode>TransformValues</TypeReductionMode>
 				</Properties>
 			</Dimension>
 			<Dimension uuid="e385c7f6-c3ab-44f4-ba1a-85e72e7a644a">
@@ -401,6 +403,7 @@
 					<Indexing>DontIndex</Indexing>
 					<FullTextSearch>Use</FullTextSearch>
 					<DataHistory>Use</DataHistory>
+					<TypeReductionMode>TransformValues</TypeReductionMode>
 				</Properties>
 			</Dimension>
 			<Form>ФормаСписка</Form>

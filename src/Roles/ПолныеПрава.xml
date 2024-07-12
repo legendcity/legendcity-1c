@@ -3,9 +3,9 @@
 	<Role uuid="6e74aad6-7e2f-475f-a6b3-2430a77b6a9b">
 		<InternalInfo/>
 		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
 			<Name>ПолныеПрава</Name>
 			<Comment/>
-			<ObjectBelonging>Adopted</ObjectBelonging>
 		</Properties>
 	</Role>
 </MetaDataObject>

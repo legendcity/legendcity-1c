@@ -28,9 +28,9 @@
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
 			<Name>ПродажиПоДисконтнымКартам</Name>
 			<Comment/>
-			<ObjectBelonging>Adopted</ObjectBelonging>
 			<RegisterType>Turnovers</RegisterType>
 		</Properties>
 		<ChildObjects/>

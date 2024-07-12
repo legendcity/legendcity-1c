@@ -24,9 +24,9 @@
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
 			<Name>ВозвратТоваровОтПокупателя</Name>
 			<Comment/>
-			<ObjectBelonging>Adopted</ObjectBelonging>
 			<RegisterRecords/>
 		</Properties>
 		<ChildObjects/>

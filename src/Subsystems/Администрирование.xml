@@ -3,9 +3,9 @@
 	<Subsystem uuid="d83f3d51-edeb-4385-9c06-2b09353cd4f7">
 		<InternalInfo/>
 		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
 			<Name>Администрирование</Name>
 			<Comment/>
-			<ObjectBelonging>Adopted</ObjectBelonging>
 			<Content>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonCommand.пд_НастройкаИнтеграции</xr:Item>
 			</Content>

@@ -3,9 +3,9 @@
 	<Language uuid="5ed6fade-30ce-4c5e-a43f-081954d35a19">
 		<InternalInfo/>
 		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
 			<Name>Русский</Name>
 			<Comment/>
-			<ObjectBelonging>Adopted</ObjectBelonging>
 			<LanguageCode>ru</LanguageCode>
 		</Properties>
 	</Language>

@@ -32,6 +32,7 @@
 			</xr:ContainedObject>
 		</InternalInfo>
 		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
 			<Name>Legendcity</Name>
 			<Synonym>
 				<v8:item>
@@ -41,7 +42,6 @@
 			</Synonym>
 			<Comment/>
 			<ConfigurationExtensionPurpose>AddOn</ConfigurationExtensionPurpose>
-			<ObjectBelonging>Adopted</ObjectBelonging>
 			<KeepMappingToExtendedConfigurationObjectsByIDs>true</KeepMappingToExtendedConfigurationObjectsByIDs>
 			<NamePrefix>пд_</NamePrefix>
 			<ConfigurationExtensionCompatibilityMode>Version8_3_12</ConfigurationExtensionCompatibilityMode>
@@ -68,6 +68,8 @@
 			<Role>пд_ИспользоватьОбменLegendCity</Role>
 			<CommonModule>ДополнительныеОтчетыИОбработки</CommonModule>
 			<CommonModule>пд_ОбменСLegendCity</CommonModule>
+			<CommonModule>ИнтерфейсРМКСлужебныйКлиентСервер</CommonModule>
+			<CommonModule>ОбщегоНазначенияРМКРТ</CommonModule>
 			<CommonCommand>пд_НастройкаИнтеграции</CommonCommand>
 			<CommonForm>пд_НастройкаИнтеграцииСLegendCity</CommonForm>
 			<Catalog>ИнформационныеКарты</Catalog>
@@ -81,6 +83,7 @@
 			<Document>ВводОстатковПоНакопительнымСкидкам</Document>
 			<Enum>пд_ВидыВыгрузки</Enum>
 			<Enum>пд_РезультатВыгрузки</Enum>
+			<DataProcessor>РабочееМестоКассира</DataProcessor>
 			<InformationRegister>пд_БонусныеНачисленияИПродажиКВыгрузке</InformationRegister>
 			<AccumulationRegister>ПродажиПоДисконтнымКартам</AccumulationRegister>
 			<AccumulationRegister>БонусныеБаллы</AccumulationRegister>
